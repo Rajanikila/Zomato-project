@@ -2,3 +2,4 @@
 node_modules
 package-lock.json
 .DS_Store
+set AWS_SDK_LOAD_CONFIG=1
