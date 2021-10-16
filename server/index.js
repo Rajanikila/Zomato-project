@@ -59,7 +59,7 @@ zomato.use("/payments", Payments);
 
 zomato.get("/", (req,res) => res.json({ message: "Setup success"}));
 
-zomato.listen(4000, () => 
+zomato.listen(3000, () => 
 ConnectDB()
 .then(()=> console.log("Server is running"))
 .catch((err)=>
